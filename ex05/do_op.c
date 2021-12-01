@@ -6,7 +6,7 @@
 /*   By: bguyot <bguyot@student.42mulhouse.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/01 12:24:06 by bguyot            #+#    #+#             */
-/*   Updated: 2021/12/01 12:24:09 by bguyot           ###   ########.fr       */
+/*   Updated: 2021/12/01 16:17:31 by bguyot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,7 @@ int	main(int argc, char *argv[])
 	if (argc == 4)
 	{
 		(f[ft_do_func(argv[2])])(ft_atoi(argv[1]), ft_atoi(argv[3]));
+		write(1, "\n", 1);
 	}
 }
 
