@@ -6,7 +6,7 @@
 /*   By: bguyot <bguyot@student.42mulhouse.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/01 12:24:50 by bguyot            #+#    #+#             */
-/*   Updated: 2021/12/01 12:24:50 by bguyot           ###   ########.fr       */
+/*   Updated: 2021/12/02 12:07:20 by bguyot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ void	mul(int a, int b)
 void	div(int a, int b)
 {
 	if (b == 0)
-		ft_putstr("Stop : division by zero\n");
+		ft_putstr("Stop : division by zero");
 	else
 		ft_putnbr(a / b);
 }
@@ -39,7 +39,7 @@ void	div(int a, int b)
 void	mod(int a, int b)
 {
 	if (b == 0)
-		ft_putstr("Stop : modulo by zero\n");
+		ft_putstr("Stop : modulo by zero");
 	else
 		ft_putnbr(a % b);
 }
